@@ -11,7 +11,7 @@ namespace EmployeeCRUD
 {
     public class EmployeeRepository
     {
-        private readonly string _connectionString = "server=localhost;user=root;password=Baddie@19;database=EmployeeDB;";
+        private readonly string _connectionString = "server=localhost;user=root;password=Your_password;database=EmployeeDB;";
 
         public void AddEmployee(Employee emp) 
         {
